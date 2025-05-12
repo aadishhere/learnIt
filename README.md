@@ -51,7 +51,7 @@ This project was created for my personal use and learning, specifically to:
 * `OpenAIChatResponse.swift`: Structs for decoding the raw JSON response from OpenAI.
 * `OpenAIResponse.swift`: Struct for the parsed, application-specific data (`summary`, `quizQuestions`, `predictedQuestions`). Includes parsing logic.
 
-## Notes / To-Do / Challenges
+## To-Do / Challenges
 * **API Key:** Remember the OpenAI API key is stored in `NetworkController.swift`. (Keep this file secure and *never* commit it to a public repository with the key).
 * **Parsing Logic:** The parsing in `OpenAIResponse.swift` relies heavily on the specific format requested in the `systemPrompt`. Any changes to the prompt format would require updating the parsing logic.
 * **Error Handling:** (Note any specific error handling logic or areas for improvement).
